@@ -2,7 +2,7 @@ from IPython.display import display
 import pandas as pd
 
 
-def disp(df, max_rows=1000, max_cols=1000):
+def disp(df: pd.DataFrame, max_rows: int = 1000, max_cols: int = 1000):
     """Display the full DataFrame table
 
     Notes: Saw this function in the fast.ai ML course as 'display_all'.
