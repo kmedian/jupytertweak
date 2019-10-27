@@ -1,3 +1,7 @@
+# 0.2.0 / 2019-10-27
+
+   * Mimic Matlab's tic toc
+
 # 0.1.1 / 2019-10-25
 
    * type hints added
